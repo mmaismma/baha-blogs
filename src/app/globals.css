@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.embla {
+  overflow: hidden;
+  /* height: 80%; */
+  height: 70lvh;
+}
+
+.embla__container {
+  display: flex;
+  height: 100%;
+}
+
+.embla__slide {
+  flex: 0 0 80%;
+  height: 100%;
+  margin: 0 10px;
+  background-color: coral;
+  border-radius: 20px;
+}
