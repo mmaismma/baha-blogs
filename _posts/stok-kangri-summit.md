@@ -4,7 +4,7 @@ date: '2024-08-21'
 author: 'Anon'
 ---
 
-### Stok Kangri: Journey to the Region of High Passes
+# Stok Kangri: Journey to the Region of High Passes
 
 I had been planning for this summit for more than a year. Stok Kangri,
 standing at 6,040 meters, would be my first summit attempt. It all began
@@ -14,8 +14,8 @@ treks, but never a summit. My inner voice kept nudging me, saying,
 to the top instead of just wandering at the bottom and coming back." And
 so began my quest.
 
-I dove headfirst into preparations, reading books like *Into Thin Air*
-and *Mountains of the Mind*, and watching countless YouTube videos of
+I dove headfirst into preparations, reading books like _Into Thin Air_
+and _Mountains of the Mind_, and watching countless YouTube videos of
 climbing experts. Although Stok Kangri required only limited climbing
 expertise, I knew I had to be physically ready. I focused on improving
 my cardio health, running 3 km in under 9 minutes, and even got my blood
@@ -28,32 +28,20 @@ could think about was the climb.
 
 The day finally arrived. I double-checked my gear:
 
--   Good climbing shoes
-
--   Gaiters
-
--   Climbing poles
-
--   Two fleece jackets
-
--   A down jacket (rated 0 to -5°C)
-
--   Head cap
-
--   Polarized goggles
-
--   Woolen socks (2 pairs) and regular socks (2 pairs)
-
--   A camera with a 75-200 mm lens and a 30 mm prime lens
-
--   A borrowed GoPro
-
--   A power bank
-
--   Essential medications: Diamox, Paracetamol, Cetirizine, and ORS
-    powder
-
--   A few books
+- Good climbing shoes
+- Gaiters
+- Climbing poles
+- Two fleece jackets
+- A down jacket (rated 0 to -5°C)
+- Head cap
+- Polarized goggles
+- Woolen socks (2 pairs) and regular socks (2 pairs)
+- A camera with a 75-200 mm lens and a 30 mm prime lens
+- A borrowed GoPro
+- A power bank
+- Essential medications: Diamox, Paracetamol, Cetirizine, and ORS
+  powder
+- A few books
 
 After packing my bag, I kissed my wife goodbye and set off for Leh. It
 was my first time visiting Leh, and nothing could have prepared me for

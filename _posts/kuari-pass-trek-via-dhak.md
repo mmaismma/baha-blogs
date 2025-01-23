@@ -1,14 +1,14 @@
 ---
 title: 'Kuari Pass Trek: A Journey Through the Garhwal Himalayas'
-date: '2024-03-15'
+date: '2025-03-15'
 author: 'Amit'
 ---
 
-**Kuari Pass Trek: A Journey Through the Garhwal Himalayas**
+# Kuari Pass Trek: A Journey Through the Garhwal Himalayas
 
 ![Kuari Pass](https://raw.githubusercontent.com/mmaismma/baha-assets/refs/heads/main/images/trek/plan/kuaripassviadhak/kuaripassviadhak_detail3.png)
 
-**Introduction**
+## Introduction
 
 My recent adventure took me from the bustling city of Bangalore to the
 serene and majestic Kuari Pass in the Garhwal Himalayas. Known for its
@@ -26,7 +26,7 @@ a reliable backpack.
 Living in Bangalore, the first step was to plan my travel to
 Uttarakhand. I booked a flight from Kempegowda International Airport to
 Jolly Grant Airport in Dehradun. From there, my journey continued by
-road to Joshimath, the base for the Kuari Pass Trek.It is about a 250 
+road to Joshimath, the base for the Kuari Pass Trek.It is about a 250
 km drive from Rishikesh to Joshimath and takes about eight to nine hours
 with a couple of breaks.
 
@@ -40,7 +40,7 @@ blend of nature, culture, and adventure.
 Our trek to Kuari Pass started from the town of Joshimath in
 Uttarakhand.
 
-**Joshimath to Dhak to Gulling**
+## Joshimath to Dhak to Gulling
 
 After a hearty breakfast, we set off for the village of Dhak, the
 starting point of the trek. The initial part of the trek involved a
@@ -51,7 +51,7 @@ at Gulling, nestled among oak and rhododendron trees. The evening was
 spent around a campfire, sharing stories with fellow trekkers and
 soaking in the tranquillity of the mountains.
 
-**Gulling to Tali Top**
+## Gulling to Tali Top
 
 The next day, we trekked from Gulling to Tali Top. The trail took us
 deeper into the forest, with the landscape gradually changing from oak
@@ -62,7 +62,7 @@ surrounding mountains and a serene campsite under a canopy of stars. The
 night was magical, with the clear skies revealing a blanket of twinkling
 stars.
 
-**Tali Top to Kuari Pass and back to Tali Top**
+## Tali Top to Kuari Pass and back to Tali Top
 
 This was the most challenging yet rewarding day of the trek. The trail
 ascended through rocky terrain and snow patches, leading us to the Kuari
@@ -73,7 +73,7 @@ pass, taking in the stunning views and capturing memories, before
 descending back to Tali Top for the night. The sense of accomplishment
 was overwhelming.
 
-**Day 4: Tali Top to Auli via Gurson Bugyal**
+## Day 4: Tali Top to Auli via Gurson Bugyal
 
 The final day of the trek took us through the picturesque meadows of
 Gurson Bugyal. The expansive views of the snow-capped peaks were a treat
@@ -82,7 +82,7 @@ destination. From Auli, a short drive brought us back to Joshimath,
 where I reflected on the incredible journey I had just completed. The
 trek had been a perfect blend of adventure, nature, and serenity.
 
-**Conclusion**
+## Conclusion
 
 The Kuari Pass Trek was an unforgettable experience, offering a perfect
 escape from the hustle and bustle of city life. The journey from
@@ -95,7 +95,7 @@ is a must-do.
 
 **Next is for you!**
 
-**Best Time to Visit**
+## Best Time to Visit
 
 The Kuari Pass Trek can be undertaken year-round, but the best time is
 from April to June and September to November. During these months, the
