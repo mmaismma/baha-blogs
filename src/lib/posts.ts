@@ -21,7 +21,11 @@ export interface PostData {
 
 const postsDirectory: string = path.join(process.cwd(), '/_posts')
 
-export function getSortedPostsData(): PostData[] {
+function extractFirstImage(content: string): string | null {
+  const imageRegex = /!\[.*?\]\((.*?)\)/
+  const match = content.match(imageRegex)
+  return match ? match[1] : null
+}
 
 function getPostMetadata(id: string): {
   metadata: Record<string, string>
@@ -33,6 +37,12 @@ function getPostMetadata(id: string): {
   )
   const matterResult = matter(fileContents)
   const metadata = matterResult.data
+
+  if (!metadata.image) {
+    const firstImage = extractFirstImage(matterResult.content)
+    if (firstImage) metadata.image = firstImage
+  }
+
   return {
     metadata,
     content: matterResult.content,
