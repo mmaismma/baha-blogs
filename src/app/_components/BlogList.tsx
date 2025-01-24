@@ -3,20 +3,20 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { PostData } from '@/lib/posts'
+import { PostInformation } from '@/lib/posts'
 import { useSearchParams } from 'next/navigation'
 
 export default function BlogList({
   initialPosts,
 }: {
-  initialPosts: PostData[]
+  initialPosts: PostInformation[]
 }) {
   const [query, setQuery] = useState(useSearchParams().get('query') ?? '')
 
   const filteredPosts = initialPosts.filter(
     (post) =>
-      post.title.toLowerCase().includes(query.toLowerCase()) ||
-      post.author.toLowerCase().includes(query.toLowerCase()),
+      post.title?.toLowerCase().includes(query.toLowerCase()) ||
+      post.author?.toLowerCase().includes(query.toLowerCase()),
   )
 
   return (
@@ -30,8 +30,11 @@ export default function BlogList({
               className="border border-gray-200 rounded-lg overflow-hidden shadow-md hover:text-brand"
             >
               <Image
-                src={post.image || '/placeholder.svg'}
-                alt={post.title}
+                src={post.image ?? ''}
+                style={{
+                  background: `linear-gradient(10deg, ${post?.accentColors[0]}, ${post?.accentColors[1]})`,
+                }}
+                alt={post.title ?? 'Image'}
                 width={2000}
                 height={2000}
                 className="w-full h-48 object-cover"

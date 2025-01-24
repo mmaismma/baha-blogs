@@ -16,6 +16,8 @@
     "@tailwindcss/typography": "^0.5.16",
     "classnames": "^2.5.1",
     "date-fns": "^3.6.0",
+    "embla-carousel-autoplay": "^8.5.2",
+    "embla-carousel-class-names": "^8.5.2",
     "embla-carousel-react": "^8.5.2",
     "gray-matter": "^4.0.3",
     "next": "15.0.2",

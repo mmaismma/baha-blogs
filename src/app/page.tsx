@@ -1,14 +1,14 @@
-import { getSortedPostsData } from '@/lib/posts'
+import { getAllPosts } from '@/lib/posts'
 import BlogList from '@/app/_components/BlogList'
 import { Suspense } from 'react'
-import Carousel from '@/app/_components/carousel'
+import PostCarousel from '@/app/_components/post-carousel'
 
 export default function Page() {
-  const posts = getSortedPostsData()
+  const posts = getAllPosts()
 
   return (
     <>
-      <Carousel posts={posts} />
+      <PostCarousel posts={posts.slice(0, 4)} style={{ height: '70vh' }} />
       <div className="p-3 max-w-7xl mx-auto">
         <h1 className="mb-6 text-3xl font-bold">All blogs</h1>
         <Suspense>
