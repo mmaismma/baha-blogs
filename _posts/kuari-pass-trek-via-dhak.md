@@ -1,6 +1,6 @@
 ---
 title: 'Kuari Pass Trek: A Journey Through the Garhwal Himalayas'
-date: '2025-03-15'
+date: '2024-12-15'
 author: 'Amit'
 ---
 
