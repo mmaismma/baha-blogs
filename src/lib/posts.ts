@@ -8,6 +8,7 @@ export interface PostInformation {
   id: string
   title?: string
   date?: string
+  accentColors?: string[]
   [key: string]: any // Allow additional metadata fields
 }
 
@@ -15,6 +16,7 @@ export interface PostData {
   id: string
   title?: string
   date?: string
+  accentColors?: string[]
   contentHtml: string
   [key: string]: any // Allow additional metadata fields
 }
@@ -25,6 +27,34 @@ function extractFirstImage(content: string): string | null {
   const imageRegex = /!\[.*?\]\((.*?)\)/
   const match = content.match(imageRegex)
   return match ? match[1] : null
+}
+
+const natureGradients = [
+  ['#a8e6cf', '#dcedc1'], // mint and sage
+  ['#ffd3b6', '#ffaaa5'], // peach and coral
+  ['#d4f0f0', '#8fcaca'], // soft blue and aqua
+  ['#e8dff5', '#c3aed6'], // lavender and purple
+  ['#ffdfd3', '#b5ead7'], // pink and seafoam
+  ['#b5eead', '#d7f9d1'], // fresh green and lime
+  ['#ffc8dd', '#ffafcc'], // rose and pink
+  ['#bde0fe', '#a2d2ff'], // sky blue and azure
+  ['#e9edc9', '#ccd5ae'], // sage and moss
+]
+
+const hashString = (str: string) => {
+  let hash = 0
+
+  if (str.length)
+    for (let i = 0; i < str.length; i++)
+      hash = (hash * 31 + str.charCodeAt(i)) >>> 0
+
+  return hash
+}
+
+const getAccentColorsForTitle = (title: string) => {
+  const hash = hashString(title)
+  const index = hash % natureGradients.length
+  return natureGradients[index]
 }
 
 function getPostMetadata(id: string): {
@@ -58,6 +88,7 @@ export function getAllPosts(): PostInformation[] {
     return {
       id,
       ...metadata,
+      accentColors: getAccentColorsForTitle(metadata.title),
     }
   })
 
@@ -76,6 +107,7 @@ export async function getPostData(id: any): Promise<any> {
   return {
     id,
     ...metadata,
+    accentColors: getAccentColorsForTitle(metadata.title),
     contentHtml,
   }
 }
