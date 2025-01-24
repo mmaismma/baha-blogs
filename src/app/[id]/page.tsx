@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation'
-import { getPostData, getSortedPostsData } from '@/lib/posts'
+import { getPostData, getAllPosts } from '@/lib/posts'
 
 type Params = {
   params: Promise<{
@@ -9,7 +9,7 @@ type Params = {
 
 export async function generateStaticParams() {
   return await Promise.all(
-    getSortedPostsData().map(async (x) => await getPostData(x.id)),
+    getAllPosts().map(async (x) => await getPostData(x.id)),
   )
 }
 

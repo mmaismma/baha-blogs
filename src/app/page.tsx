@@ -1,10 +1,10 @@
-import { getSortedPostsData } from '@/lib/posts'
+import { getAllPosts } from '@/lib/posts'
 import BlogList from '@/app/_components/BlogList'
 import { Suspense } from 'react'
 import Carousel from '@/app/_components/carousel'
 
 export default function Page() {
-  const posts = getSortedPostsData()
+  const posts = getAllPosts()
 
   return (
     <>

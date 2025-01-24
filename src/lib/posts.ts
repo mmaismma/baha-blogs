@@ -8,7 +8,8 @@ export interface PostInformation {
   id: string
   title?: string
   date?: string
-  accentColors?: string[]
+  image?: string
+  accentColors: string[]
   [key: string]: any // Allow additional metadata fields
 }
 
@@ -16,7 +17,8 @@ export interface PostData {
   id: string
   title?: string
   date?: string
-  accentColors?: string[]
+  image?: string
+  accentColors: string[]
   contentHtml: string
   [key: string]: any // Allow additional metadata fields
 }
