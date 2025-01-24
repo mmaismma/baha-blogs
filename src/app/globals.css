@@ -2,21 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-.embla {
-  overflow: hidden;
-  /* height: 80%; */
-  height: 70lvh;
-}
+:root {
+  --easing-standard: cubic-bezier(0.2, 0, 0, 1);
+  --easing-standard-decelerate: cubic-bezier(0, 0, 0, 1);
+  --easing-standard-accelerate: cubic-bezier(0.3, 0, 1, 1);
 
-.embla__container {
-  display: flex;
-  height: 100%;
-}
+  --easing-duration-medium1: 50ms;
+  --easing-duration-medium2: 100ms;
+  --easing-duration-medium3: 150ms;
+  --easing-duration-medium4: 200ms;
 
-.embla__slide {
-  flex: 0 0 80%;
-  height: 100%;
-  margin: 0 10px;
-  background-color: coral;
-  border-radius: 20px;
+  --easing-duration-medium1: 250ms;
+  --easing-duration-medium2: 300ms;
+  --easing-duration-medium3: 350ms;
+  --easing-duration-medium4: 400ms;
 }
