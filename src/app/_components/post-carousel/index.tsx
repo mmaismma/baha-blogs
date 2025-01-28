@@ -1,7 +1,7 @@
 'use client'
 
 import './style.css'
-import { PostInformation } from '@/lib/posts'
+import { PostMetadata } from '@/lib/posts'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import ClassNames from 'embla-carousel-class-names'
@@ -11,7 +11,7 @@ export default function PostCarousel({
   posts,
   style,
 }: {
-  posts: PostInformation[]
+  posts: PostMetadata[]
   style?: Record<string, string>
 }) {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [
