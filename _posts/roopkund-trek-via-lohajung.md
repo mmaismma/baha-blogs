@@ -4,8 +4,6 @@ date: '2024-05-12'
 author: 'Amit'
 ---
 
-# Journey to the Mystical Roopkund: A Trek Through Time and Terrain
-
 Nestled in the lap of the Garhwal Himalayas, the Roopkund Trek is a
 captivating journey that combines natural splendor, historical intrigue,
 and the thrill of adventure. Known as the “Mystery Lake Trek,” this

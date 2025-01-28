@@ -4,8 +4,6 @@ date: '2024-01-15'
 author: 'Anon'
 ---
 
-# Exploring the Serene Chopta-Chandrashila Trek
-
 The Chopta-Chandrashila Trek is a captivating journey through the heart
 of Uttarakhand’s Garhwal Himalayas. With its stunning vistas, rich
 biodiversity, and cultural significance, this trek is a perfect blend of

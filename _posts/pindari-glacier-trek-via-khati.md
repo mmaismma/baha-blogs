@@ -4,8 +4,6 @@ date: '2024-07-03'
 author: 'Anon'
 ---
 
-# Pindari Glacier Trek: A Journey to the Soul of the Himalayas
-
 Nestled in the breathtaking Kumaon region of Uttarakhand, the Pindari
 Glacier Trek is a haven for trekking enthusiasts and nature lovers
 alike. This moderate trek offers an extraordinary blend of stunning

@@ -4,8 +4,6 @@ date: '2024-10-30'
 author: 'Anon'
 ---
 
-# Badrinath Dham: A Divine Journey to the Abode of Lord Vishnu
-
 Tucked amidst the snow-capped peaks of the Garhwal Himalayas in
 Uttarakhand, Badrinath Dham is one of the most revered pilgrimage sites
 in India. As part of the Char Dham Yatra, this sacred shrine holds
