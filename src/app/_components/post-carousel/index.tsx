@@ -1,7 +1,7 @@
 'use client'
 
 import './style.css'
-import { PostInformation } from '@/lib/posts'
+import { PostMetadata } from '@/lib/posts'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import ClassNames from 'embla-carousel-class-names'
@@ -11,41 +11,50 @@ export default function PostCarousel({
   posts,
   style,
 }: {
-  posts: PostInformation[]
+  posts: PostMetadata[]
   style?: Record<string, string>
 }) {
-  const [emblaRef] = useEmblaCarousel({ loop: true }, [
-    Autoplay(),
-    ClassNames(),
-  ])
+  const [emblaRef, emblaApi] = useEmblaCarousel(
+    { loop: true, skipSnaps: false },
+    [Autoplay({ delay: 6000 }), ClassNames()],
+  )
+
+  const handleClick = (e: React.MouseEvent, index: number) => {
+    if (!emblaApi) return
+
+    const selectedSlide = emblaApi.slideNodes()[index]
+    if (!selectedSlide.classList.contains('is-snapped')) {
+      e.preventDefault()
+      emblaApi.scrollTo(index)
+    }
+  }
 
   return (
     <section className="embla" style={style} ref={emblaRef}>
       <div className="embla__container">
-        {posts.map((post) => (
+        {posts.map((post, index) => (
           <Link
             href={`./${post.id}`}
             key={post.id}
             className="embla__slide"
+            onClick={(e) => handleClick(e, index)}
             style={{
               background: `
-                linear-gradient(70deg, #fdfbfbbb 20%, #fdfbfb99 50%, #ebedee00 80%), 
-                ${
-                  post.image
-                    ? `url(${post.image})`
-                    : `linear-gradient(10deg, ${post.accentColors[0]}, ${post.accentColors[1]})`
-                }
-              `,
+                linear-gradient(70deg, rgba(253,251,251,0.95) 0%, rgba(253,251,251,0.7) 45%, transparent 100%),
+                url(${post.image}),
+                linear-gradient(10deg, ${post.accentColors[0]}, ${post.accentColors[1]})`,
               backgroundPosition: post.image ? 'right' : 'center',
               backgroundSize: 'cover',
               backgroundRepeat: 'no-repeat',
             }}
           >
             <div className="metadata">
-              <span>{[post.author, post.date].join(' • ')}</span>
-              <span style={{ fontSize: '3em', fontWeight: 'bold' }}>
-                {post.title}
+              <span>
+                {post.author} • {post.date}
               </span>
+              <h2 className="text-4xl leading-tight sm:text-5xl font-bold">
+                {post.title}
+              </h2>
             </div>
           </Link>
         ))}

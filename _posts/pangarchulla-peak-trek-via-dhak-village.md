@@ -4,8 +4,6 @@ date: '2024-06-18'
 author: 'Chandrashekhar'
 ---
 
-# Pangarchulla Peak Trek: A Thrilling Himalayan Adventure
-
 Nestled in the pristine landscapes of Uttarakhand, the Pangarchulla Peak
 Trek is a thrilling journey that combines the raw beauty of the
 Himalayas with an adventurous ascent to a summit. Standing tall at an

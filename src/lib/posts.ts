@@ -4,7 +4,7 @@ import matter from 'gray-matter'
 import { remark } from 'remark'
 import html from 'remark-html'
 
-export interface PostInformation {
+export interface PostMetadata {
   id: string
   title?: string
   date?: string
@@ -81,9 +81,9 @@ function getPostMetadata(id: string): {
   }
 }
 
-export function getAllPosts(): PostInformation[] {
+export function getAllPosts(): PostMetadata[] {
   const fileNames: string[] = fs.readdirSync(postsDirectory)
-  const allPostsData: PostInformation[] = fileNames.map((fileName) => {
+  const allPostsData: PostMetadata[] = fileNames.map((fileName) => {
     const id: string = fileName.replace(/\.md$/, '')
     const { metadata } = getPostMetadata(id)
 

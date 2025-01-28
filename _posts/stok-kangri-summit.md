@@ -4,8 +4,6 @@ date: '2024-08-21'
 author: 'Anon'
 ---
 
-# Stok Kangri: Journey to the Region of High Passes
-
 I had been planning for this summit for more than a year. Stok Kangri,
 standing at 6,040 meters, would be my first summit attempt. It all began
 in January 2019 when a thought crossed my mind: I had done so many

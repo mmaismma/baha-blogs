@@ -4,8 +4,6 @@ date: '2024-09-09'
 author: 'Anon'
 ---
 
-# Hemis to Padum Trek: A Journey Through Ladakh’s Untamed Beauty
-
 The Hemis to Padum Trek is an exhilarating adventure that takes you
 through the heart of Ladakh’s rugged wilderness. Stretching across
 high-altitude passes, serene valleys, and ancient monasteries, this trek
