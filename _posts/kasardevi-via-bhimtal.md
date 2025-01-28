@@ -1,7 +1,7 @@
 ---
 title: 'The Mystical Energy and History of Kasar Devi Temple'
 date: '2024-01-07'
-author: 'Anon'
+author: 'Tushar'
 ---
 
 ![Kasar Devi](https://raw.githubusercontent.com/mapmymap/baha-assets/refs/heads/main/images/trek/plan/kasardeviviabhimtal/kasardeviviabhimtal_banner.png)

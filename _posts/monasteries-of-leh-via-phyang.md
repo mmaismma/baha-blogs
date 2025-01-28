@@ -1,7 +1,7 @@
 ---
 title: "Leh's Iconic Monasteries: A Journey into Spiritual and Cultural Heritage"
-date: '2024-03-21'
-author: 'Anon'
+date: '2024-11-21'
+author: 'Amit'
 ---
 
 Nestled in the heart of the Himalayas, Leh stands as a beacon of

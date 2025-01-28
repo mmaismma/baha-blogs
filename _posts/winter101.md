@@ -1,7 +1,7 @@
 ---
 title: 'Winter Trekking 101: What to Eat and How to Travel Safely'
-date: '2024-02-15'
-author: 'Anon'
+date: '2024-11-15'
+author: 'Tushar'
 ---
 
 ![Winter trekking 101](https://raw.githubusercontent.com/mapmymap/baha-assets/refs/heads/main/images/trek/winter101/image2.jpg)

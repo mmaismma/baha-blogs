@@ -1,7 +1,7 @@
 ---
 title: 'The History and Spiritual Significance of Kainchi Dham: A Sanctuary of Love and Service'
 date: '2024-04-12'
-author: 'Anon'
+author: 'Prajakta'
 ---
 
 # The History and Spiritual Significance of Kainchi Dham: A Sanctuary of Love and Service
