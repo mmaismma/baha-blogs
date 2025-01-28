@@ -100,6 +100,11 @@ export function getAllPosts(): PostMetadata[] {
   })
 }
 
+export function getFeaturedPosts(): PostMetadata[] {
+  const allPosts = getAllPosts()
+  return allPosts.slice(0, 4)
+}
+
 export async function getPostData(id: any): Promise<any> {
   const { metadata, content } = getPostMetadata(id)
 
