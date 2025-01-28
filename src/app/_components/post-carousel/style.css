@@ -31,6 +31,12 @@
     opacity var(--easing-duration-medium4) var(--easing-standard);
 }
 
+@media (max-width: 1250px) {
+  .embla__slide {
+    padding: 20px;
+  }
+}
+
 .embla__slide > .metadata {
   height: 100%;
   display: flex;
